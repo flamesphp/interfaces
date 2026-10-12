@@ -10,5 +10,5 @@ use Flames\Framework\Controller\RequestData;
 
 interface Controller
 {
-    public function onRequest(RequestData $requestData): string|array|Arr|Response;
+    public function onRequest(RequestData $requestData): string|array|Arr|Response|null;
 }
